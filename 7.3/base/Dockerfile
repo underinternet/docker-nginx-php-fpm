@@ -1,6 +1,6 @@
-FROM ubuntu:16.04
+FROM ubuntu:20.04
 
-MAINTAINER Maksim Kotliar <kotlyar.maksim@gmail.com>
+MAINTAINER Roberto Berto
 
 ENV LC_ALL=C.UTF-8
 
