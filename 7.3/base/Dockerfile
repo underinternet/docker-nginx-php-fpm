@@ -5,7 +5,7 @@ MAINTAINER Roberto Berto
 ENV LC_ALL=C.UTF-8
 
 RUN apt-get update && \
-    apt-get -y --no-install-recommends --no-install-suggests install software-properties-common python-software-properties && \
+    apt-get -y --no-install-recommends --no-install-suggests install software-properties-common && \
     add-apt-repository ppa:ondrej/php && \
     add-apt-repository ppa:ondrej/pkg-gearman && \
     rm -rf /var/lib/apt/lists/*
